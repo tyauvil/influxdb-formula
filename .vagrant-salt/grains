@@ -1,0 +1,4 @@
+env: dev
+region: us-colorado-1
+service: vagrant
+id: dev-vagrant-usc1a-pr-10.0.1.15

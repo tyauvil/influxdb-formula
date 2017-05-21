@@ -1,0 +1,10 @@
+/var/log/influxdb/*.log {
+  daily
+  rotate 3
+  copytruncate
+  compress
+  delaycompress
+  notifempty
+  missingok
+  su influxdb influxdb
+}

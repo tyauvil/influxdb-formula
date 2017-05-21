@@ -1,0 +1,4 @@
+name: influxdb
+deps:
+  telegraf:
+    git: git@github.com:tyauvil/telegraf-formula.git

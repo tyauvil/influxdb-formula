@@ -1,0 +1,8 @@
+influxdb:
+  config:
+    home_dir: /var/lib/influxdb
+    graphite_enabled: true
+telegraf:
+  version: 1.2.1-1
+  enabled_statsd: true
+  insecure_ssl_verify: true
